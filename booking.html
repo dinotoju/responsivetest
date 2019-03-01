@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:500|Open+Sans:300,300i,400,400i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Booking</title>
+</head>
+<body>
+<header>
+	<a href="#content" class="skip">Skip to content</a>
+	<nav>
+		<ul>
+		<li><a href = "index.html">About</a></li>
+		<li><a href = "mydogs.html">My Dogs</a></li>
+		<li><a href = "pricing.html">Pricing</a></li>
+		<li><a href = "booking.html" class = "current">Booking</a></li>
+		<li><a href = "docs/wag_flyer.pdf" target="_blank">$25 Promo</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="hero-image">
+<div class="hero-text">
+    <h1>Booking</h1>
+</div>
+</div>
+<div class="bodycontent" id="content">
+	<h2>Contact me to book a service</h2>
+	</div>
+		<div class="form">
+			
+		<form method="POST" action="https://formspree.io/julia@juliadinoto.com">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Your name">
+			
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="_replyto" placeholder="Your email">
+			
+		<br>Service(s):
+		<br><label for="servicewalking">Walking</label> <input type="checkbox" id="servicewalking" name="servicewalking">
+		<label for="servicesitting">Sitting</label> <input type="checkbox" id="servicesitting" name="servicesitting">
+		<label for="serviceboarding">Boarding</label> <input type="checkbox" id="serviceboarding" name="serviceboarding">
+	
+		<label for="message">Message:</label>
+		<input type="text" id="message" name="message" placeholder="Your message">
+		<input type="submit" value="Send Message">
+	</form>
+	</div>
+<footer>
+	&copy; Julia Dinoto 2019 🐾
+</footer>
+</body>
+</html>
